@@ -30,4 +30,9 @@ rabbitmqctl add_user openstack RABBIT_PASS
 rabbitmqctl set_permissions openstack ".*" ".*" ".*"
 ```
 
+```
+apt install memcached python3-memcache
 
+/etc/memcached.conf
+-l 10.254.60.101
+```
