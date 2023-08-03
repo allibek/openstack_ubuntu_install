@@ -1,7 +1,8 @@
+'''
 /etc/hosts
 10.254.60.101 controller1
 10.254.60.102 compute1
-
+'''
 
 
 apt install chrony
