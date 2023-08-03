@@ -4,11 +4,13 @@
 10.254.60.102 compute1
 ```
 
-
+```
 apt install chrony
 add-apt-repository cloud-archive:antelope
 apt install mariadb-server python3-pymysql
+```
 
+```
 /etc/mysql/mariadb.conf.d/99-openstack.cnf
 [mysqld]
 bind-address = 10.254.60.101
@@ -20,5 +22,5 @@ character-set-server = utf8
 
 service mysql restart
 mysql_secure_installation
-
+```
 
