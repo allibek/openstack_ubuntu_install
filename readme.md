@@ -24,3 +24,10 @@ service mysql restart
 mysql_secure_installation
 ```
 
+```
+apt install rabbitmq-server
+rabbitmqctl add_user openstack RABBIT_PASS
+rabbitmqctl set_permissions openstack ".*" ".*" ".*"
+```
+
+
