@@ -17,6 +17,7 @@ max_connections = 4096
 collation-server = utf8_general_ci
 character-set-server = utf8
 
-
+service mysql restart
+mysql_secure_installation
 
 
